@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { ArrowUp } from "lucide-react";
+import { ArrowUp, Phone } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import useScrolled from "../../hooks/useScrolled";
 import { site } from "../../data/site";
