@@ -28,6 +28,14 @@ export default function Footer() {
             {site.phone}
           </motion.a>
 
+          <motion.a
+            variants={fadeUp}
+            href={site.phone2Href}
+            className="mt-2 block font-serif text-2xl font-light text-ivory/90 transition-colors hover:text-gold-300 sm:text-3xl"
+          >
+            {site.phone2}
+          </motion.a>
+
           <motion.a variants={fadeUp} href={site.phoneHref} className="btn-gold mt-6">
             <Phone size={14} /> Schedule a Call
           </motion.a>

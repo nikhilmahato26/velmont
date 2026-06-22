@@ -36,11 +36,11 @@ export default function Logo({ tone = "dark", className }) {
         </span>
         <span
           className={cn(
-            "mt-1 text-[8px] uppercase tracking-[0.4em]",
+            "mt-1 text-[8px] uppercase tracking-[0.3em]",
             isLight ? "text-white/60" : "text-ink-muted"
           )}
         >
-          Towers
+          Marketed by Velmont
         </span>
       </span>
     </a>
