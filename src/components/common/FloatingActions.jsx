@@ -25,7 +25,31 @@ export default function FloatingActions() {
         )}
       </AnimatePresence>
 
-      {/* WhatsApp */}
+      {/* Call — primary number */}
+      <motion.a
+        href={site.phoneHref}
+        aria-label={`Call ${site.phone}`}
+        initial={{ scale: 0, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ delay: 0.9, type: "spring", stiffness: 200 }}
+        className="grid h-13 w-13 place-items-center rounded-full bg-forest text-ivory shadow-soft transition-transform hover:scale-110"
+      >
+        <Phone size={20} />
+      </motion.a>
+
+      {/* Call — secondary number */}
+      <motion.a
+        href={site.phone2Href}
+        aria-label={`Call ${site.phone2}`}
+        initial={{ scale: 0, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ delay: 1.05, type: "spring", stiffness: 200 }}
+        className="grid h-13 w-13 place-items-center rounded-full bg-forest-700 text-ivory shadow-soft transition-transform hover:scale-110"
+      >
+        <Phone size={20} />
+      </motion.a>
+
+      {/* WhatsApp — primary number */}
       <motion.a
         href={site.whatsapp}
         target="_blank"
