@@ -32,7 +32,7 @@ export default function FloatingActions() {
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 0.9, type: "spring", stiffness: 200 }}
-        className="grid h-13 w-13 place-items-center rounded-full bg-forest text-ivory shadow-soft transition-transform hover:scale-110"
+        className="grid h-12 w-12 place-items-center rounded-full bg-forest text-ivory shadow-soft transition-transform hover:scale-110"
       >
         <Phone size={20} />
       </motion.a>
@@ -44,7 +44,7 @@ export default function FloatingActions() {
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 1.05, type: "spring", stiffness: 200 }}
-        className="grid h-13 w-13 place-items-center rounded-full bg-forest-700 text-ivory shadow-soft transition-transform hover:scale-110"
+        className="grid h-12 w-12 place-items-center rounded-full bg-forest-700 text-ivory shadow-soft transition-transform hover:scale-110"
       >
         <Phone size={20} />
       </motion.a>
