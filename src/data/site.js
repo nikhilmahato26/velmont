@@ -24,6 +24,7 @@ export const navLinks = [
   { label: "Location", href: "#location" },
   { label: "Lifestyle", href: "#lifestyle" },
   { label: "Gallery", href: "#gallery" },
+  { label: "Floor Plans", href: "#floorplans" },
   { label: "Amenities", href: "#amenities" },
   { label: "Contact", href: "#contact" },
 ];

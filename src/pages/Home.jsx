@@ -4,6 +4,7 @@ import LocationIntro from "../components/location/LocationIntro";
 import DistanceCarousel from "../components/location/DistanceCarousel";
 import Lifestyle from "../components/lifestyle/Lifestyle";
 import Gallery from "../components/gallery/Gallery";
+import FloorPlans from "../components/floorplans/FloorPlans";
 import Harmony from "../components/gallery/Harmony";
 import Amenities from "../components/amenities/Amenities";
 import TourForm from "../components/forms/TourForm";
@@ -18,6 +19,7 @@ export default function Home() {
       <DistanceCarousel />
       <Lifestyle />
       <Gallery />
+      <FloorPlans />
       <Harmony />
       <Amenities />
       <TourForm />
