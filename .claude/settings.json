@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx vite *)"
+      "Bash(npx vite *)",
+      "Read(//var/folders/wq/_cd02nx96133dj5_2wfky9pc0000gn/T/**)",
+      "Read(//private/var/folders/wq/_cd02nx96133dj5_2wfky9pc0000gn/T/**)"
     ]
   }
 }
