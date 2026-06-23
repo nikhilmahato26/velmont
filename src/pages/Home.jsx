@@ -8,7 +8,6 @@ import FloorPlans from "../components/floorplans/FloorPlans";
 import Harmony from "../components/gallery/Harmony";
 import Amenities from "../components/amenities/Amenities";
 import TourForm from "../components/forms/TourForm";
-import ReraDetails from "../components/footer/ReraDetails";
 
 export default function Home() {
   return (
@@ -23,7 +22,6 @@ export default function Home() {
       <Harmony />
       <Amenities />
       <TourForm />
-      <ReraDetails />
     </>
   );
 }
