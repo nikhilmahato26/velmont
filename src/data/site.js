@@ -53,4 +53,4 @@ export const offices = {
 export const hours = ["From 9:00 to 18:00 IST, 7 days a week", "Online — 24 hours a day"];
 
 export const mapEmbed =
-  "https://www.google.com/maps?q=Greater+Noida+West+Sector+1+Aimnabad&output=embed";
+  "https://www.google.com/maps?q=Unibera+Towers+Sector+1+Aimnabad+Greater+Noida&ll=28.552871,77.446776&z=15&output=embed";

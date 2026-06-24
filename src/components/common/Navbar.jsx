@@ -29,20 +29,8 @@ export default function Navbar() {
                 : "border border-white/15 bg-white/5 backdrop-blur-md"
             )}
           >
-            {/* Left cluster — logo + mobile menu trigger */}
+            {/* Left cluster — logo */}
             <div className="flex items-center gap-2">
-              <button
-                onClick={() => setOpen(true)}
-                className={cn(
-                  "flex items-center gap-2 rounded-full border px-4 py-2.5 text-[11px] font-medium uppercase tracking-wide3 transition-colors lg:hidden",
-                  scrolled
-                    ? "border-forest/15 text-forest"
-                    : "border-white/25 text-white"
-                )}
-                aria-label="Open menu"
-              >
-                <Menu size={15} /> Menu
-              </button>
               <Logo tone={tone} className="shrink-0" />
             </div>
 
@@ -77,16 +65,29 @@ export default function Navbar() {
               <a
                 href="#contact"
                 className={cn(
-                  "flex items-center gap-2 rounded-full px-5 py-2.5 text-[11px] font-medium uppercase tracking-wide3 transition-all duration-300 hover:-translate-y-0.5",
+                  "hidden items-center gap-2 rounded-full px-5 py-2.5 text-[11px] font-medium uppercase tracking-wide3 transition-all duration-300 hover:-translate-y-0.5 lg:flex",
                   scrolled
                     ? "bg-forest text-ivory hover:bg-forest-700"
                     : "border border-white/30 bg-white/10 text-white backdrop-blur hover:bg-white/20"
                 )}
               >
                 <Phone size={13} />
-                <span className="hidden sm:inline">Request a Call</span>
-                <span className="sm:hidden">Call</span>
+                Request a Call
               </a>
+
+              {/* Mobile menu trigger */}
+              <button
+                onClick={() => setOpen(true)}
+                className={cn(
+                  "flex items-center gap-2 rounded-full border px-4 py-2.5 text-[11px] font-medium uppercase tracking-wide3 transition-colors lg:hidden",
+                  scrolled
+                    ? "border-forest/15 text-forest"
+                    : "border-white/25 text-white"
+                )}
+                aria-label="Open menu"
+              >
+                <Menu size={15} /> Menu
+              </button>
             </div>
           </nav>
         </div>
